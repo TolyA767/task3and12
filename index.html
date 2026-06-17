@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weapon Search — Поиск холодного оружия</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Шапка -->
+        <header class="header">
+            <h1>🗡️ Weapon Search</h1>
+            <div class="stats">
+                <div class="score">Score: <span id="score">0</span></div>
+                <div class="found">Found: <span id="found">0</span> / <span id="total">0</span></div>
+            </div>
+        </header>
+
+        <!-- Игровое поле -->
+        <div id="scene" class="scene">
+            <!-- Предметы добавит JavaScript -->
+        </div>
+
+        <!-- Панель со словами -->
+        <div class="words-panel">
+            <h3>🔍 Find the weapon:</h3>
+            <div id="words-list" class="words-list">
+                <!-- Кнопки добавит JavaScript -->
+            </div>
+        </div>
+
+        <!-- Сообщение игроку -->
+        <div id="message" class="message"></div>
+
+        <!-- Кнопка новой игры -->
+        <button id="restart-btn" class="restart-btn">🔄 New Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
